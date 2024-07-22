@@ -1,0 +1,38 @@
+OBJECTS IN JAVASCRIPT
+NOTE :
+1. objecr.create ---- using constructor----singlton is formed.
+2. const user={  key:value }-----using literals -----singlton is not formed
+
+OBJECTS
+// declaration of an object
+const jsuser={
+    key:value;
+    key:value;
+    key:value;
+}
+
+
+NOTE INTERVIEW:
+dclare the symbol use it in object and access it
+
+1. false method
+const mySimbol=symbol("key 1)
+const user={
+    name : abhishek,
+    mySimbol:"mykey1"
+}
+
+output : mykey1 ---- datatype = "string"
+
+2.true method
+const mySymbol=symbol("key 1")
+const user={
+    name : abhishek,
+    [mySimbol]:"mykey1"
+}
+output :mykey1 ------ datatype = "symbol"
+
+NOTE :  
+this is object method to refere the declared object.
+
+
